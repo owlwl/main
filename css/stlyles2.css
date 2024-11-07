@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Pretendard-Regular';
+
+    
+
+
+
+}
+
+
+
+
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#header_wrap {
+    height: 49px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+
+}
+
+
+.header {
+
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: right;
+
+
+}
+
+.top_link {
+    display: flex;
+
+}
+
+.top_link li a {
+    padding: 15px 30px;
+    display: block;
+    transition: all 0.5s;
+
+}
+
+.top_link li a:hover {
+   
+    transition: all 0.5s;
+    transform: scale(1.1);
+    
+    
+}
+
+#logo_wrap {
+    height: 208px;
+    border-bottom: 1px solid gray;
+
+}
+
+.logo {
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.logo_image {
+    margin-top: 20px;
+    margin-left: 513px;
+
+}
+
+.search_wrap {
+    margin-top: 90px;
+    height: 26px;
+    padding: 6px 20px 5px 50px;
+    border: 1px solid #616161;
+    background: url(../img/search.png) no-repeat left 13px top 1px;
+    border-radius: 20px;
+}
+
+.search_wrap input {
+    border: none;
+}
+
+
+#gnb_wrap {
+    height: 74px;
+    border-bottom: 1px solid gray;
+}
+
+.gnb_inner {
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.gnb {
+    display: flex;
+}
+
+.gnb li a {
+    display: block;
+    padding: 30px 50px;
+    font-size: 23px;
+    transition: all 0.5s;
+}
+
+.gnb li a:hover {
+    transition: all 0.5s;
+  
+    
+}
